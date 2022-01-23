@@ -4,7 +4,7 @@ MAINTAINER sarat.e99@gmail.com Sarat Chandra E
 
 WORKDIR /app
 COPY . .
-RUN mvn install
+RUN mvn package
 
 #jdk
 FROM openjdk:11.0.10-jre
